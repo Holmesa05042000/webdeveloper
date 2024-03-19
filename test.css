@@ -1,0 +1,86 @@
+/* Reset default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font */
+body {
+    background-color: #f6f6f6; /* Light gray background */
+    font-family: Arial, sans-serif; /* Default font */
+    color: #333; /* Default text color */
+}
+
+/* Style the header */
+header {
+    background-color: #563527; /* Dark brown header background */
+    color: #fff; /* Header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #c68c5d; /* Light brown navigation background */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Navigation link text color */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Style the main content area */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Style the coffee image */
+.coffee-img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #563527; /* Dark brown footer background */
+    color: #fff; /* Footer text color */
+    padding: 20px;
+    text-align: center;
+}
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+
+}
+*{
+    font-family: 'roboto' , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: .2s linear;
+}
